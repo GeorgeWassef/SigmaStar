@@ -1,0 +1,1333 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* ==============nav bar==================== */
+.nav {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    box-shadow: 0px 0.1px 20px rgba(116, 116, 116, 0.2);
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    z-index: 15;
+
+}
+
+.nav .navc ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+.nav .navc .navButton {
+    border: 0;
+    font-size: 24px;
+    margin-left: 40px;
+    background-color: #fff;
+    color: #5f687b;
+    display: none;
+    cursor: pointer;
+
+}
+
+.nav .navc ul li {
+    margin: 0 15px;
+}
+
+.nav .navc ul li a:hover {
+    color: #01b8dc;
+}
+
+.nav .navc ul li a {
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+.nav .navc ul li button {
+
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 1px solid #cdd1d9;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.nav .navc ul li button:hover {
+    border: 1px solid blue;
+    background-color: blue;
+
+
+}
+
+.nav .navc ul li button:hover a {
+    color: white;
+}
+
+.nav .navc ul li button a {
+
+    color: #5f687b;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav .logo {
+    margin-right: 100px;
+}
+
+.nav .logo h1 a {
+    text-decoration: none;
+    color: #5f687b;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.nav .logo .sigma {
+    color: #f38300;
+}
+
+.nav .logo .star {
+    color: #03b0db;
+}
+
+
+/* =================end nav================ */
+
+/* arrow */
+.arrow {
+    padding: 8px 14px;
+    position: fixed;
+    color: white;
+    border-radius: 5px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #01b8dc;
+    transition: all 0.3s;
+    z-index: 15;
+}
+
+.arrow:hover {
+    transform: scale(1.1, 1.1);
+    background-color: blue;
+}
+
+/* end arrow */
+
+
+
+/* ======================row1========================= */
+
+.container1 {
+
+    width: 85%;
+    margin: auto;
+    text-align: right;
+
+}
+
+.container1 .row1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+.container1 .row1 .left1 {
+    width: 50%;
+}
+
+.container1 .row1 .left1 img {
+    
+    width: 100%;
+    animation-name: animate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+.container1 .row1 .right1 {
+    padding: 110px 0 20px 0;
+    width: 50%;
+}
+
+.container1 .row1 .right1 h1 {
+    margin: 20px 0px;
+    font-weight: 700;
+    color: #3e4450;
+    font-size: 48px;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container1 .row1 .right1 p {
+    color: #858ea1;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    margin: 20px 0px;
+}
+
+.container1 .row1 .right1 button {
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px 35px;
+    border-radius: 4px;
+    border: 0;
+    transition: 0.5s;
+    color: #fff;
+    background: #01b8dc;
+    box-shadow: 0 8px 28px rgba(22, 223, 126, .45);
+
+}
+
+.container1 .row1 .right1 button:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 10px 30px blue;
+    transform: scale(1.2, 1.2);
+}
+
+/* ================row2=================== */
+.container1 .row2 {
+    justify-content: space-between;
+    padding-top: 70px;
+    display: flex;
+    width: 100%;
+}
+
+.container1 .row2 .left2 {
+    text-align: right;
+    border: 1px solid #f9f9fa;
+    background-color: #f9f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    width: 47%;
+    transition: all 0.5s;
+}
+
+.container1 .row2 .left2 h3 {
+    text-align: right;
+    margin: 0 10px;
+}
+
+.container1 .row2 .left2 h3 a {
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color: #5f687b;
+    transition: all 0.5s;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container1 .row2 .left2:hover {
+    border: 1px solid #cdd1d9;
+}
+
+.container1 .row2 .left2:hover h3 a {
+    color: #01b8dc;
+}
+
+.container1 .row2 .left2 p {
+    text-align: right;
+}
+
+.container1 .row2 .left2 img {
+    margin: 20px 10px;
+    width: 40px;
+}
+
+.container1 .row2 .right2 img {
+    margin: 20px 10px;
+    width: 40px;
+}
+
+.container1 .row2 .right2 {
+    text-align: right;
+    border: 1px solid #f9f9fa;
+    background-color: #f9f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    width: 47%;
+    transition: all 0.5s;
+}
+
+.container1 .row2 .right2 h3 {
+    text-align: right;
+    margin: 0 10px;
+}
+
+.container1 .row2 .right2 h3 a {
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color: #5f687b;
+    transition: all 0.5s;
+    font-weight: 600;
+    font-size: 18px;
+    ;
+}
+
+.container1 .row2 .right2:hover {
+    border: 1px solid #cdd1d9;
+}
+
+.container1 .row2 .right2:hover h3 a {
+    color: #01b8dc;
+}
+
+.container1 .row2 .left2 p,
+.right2 p {
+    margin: 30px 10px;
+    color: #5f687b;
+    text-align: right;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* =====================ROW 3============================= */
+
+.row3 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    justify-content: space-between;
+}
+
+
+.row3 .left3 {
+    text-align: right;
+    width: 49%;
+
+
+}
+
+.row3 .left3 h2 {
+    margin: 10px 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #5f687b;
+}
+
+.row3 .left3 p {
+    color: #444444;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.row3 .right3 {
+    width: 48%;
+    background-color: #f9f9fa;
+    margin: 10px;
+
+}
+
+.row3 .right3 img {
+    width: 100%;
+}
+
+
+/* ========================section===================== */
+
+
+section {
+    margin-top: 40px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f9f9fa;
+    padding: 40px 100px 0;
+
+}
+
+section .sectionLable {
+    position: relative;
+    margin: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+section .sectionLable span {
+    position: absolute;
+    top: 15px;
+    width: 20%;
+    left: 41%;
+    color: rgba(53, 53, 53, 0.07);
+    font-size: 52px;
+    font-weight: bold;
+
+}
+
+section .sectionLable h2 {
+    width: 20%;
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #5f687b;
+    top: 40px;
+    left: 40%;
+    position: absolute;
+    margin: 10px;
+
+}
+
+section .sectionLable p {
+    margin-top: 100px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+}
+
+section .item {
+    width: 22%;
+    height: 100px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    margin: 15px 0;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+section .item:hover {
+    border: 1px solid #cdd1d9;
+    transform: scale(1.2, 1.2);
+}
+
+section .item:hover a {
+    color: #03b0db;
+}
+
+section .item i {
+    color: #01b8dc;
+    font-size: 28px;
+    margin: 15px;
+    display: block;
+}
+
+section .item a {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #5f687b;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+section .sectionfooter {
+    text-align: center;
+    margin: 100px 0;
+    position: relative;
+}
+
+section .sectionfooter span {
+    position: absolute;
+    top: 0px;
+    width: 20%;
+    left: 41%;
+    color: rgba(53, 53, 53, 0.07);
+    font-size: 52px;
+    font-weight: bold;
+}
+
+section .sectionfooter h2 {
+    width: 20%;
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #5f687b;
+    top: 20px;
+    left: 40%;
+    position: absolute;
+    margin: 10px;
+
+}
+
+section .sectionfooter p {
+    margin-top: 100px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ===========================contact============================ */
+.contact {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    direction: rtl;
+}
+
+.contact .contactLable {
+    text-align: center;
+    position: relative;
+    margin: 50px 0;
+    width: 100%;
+}
+
+.contact .contactLable span {
+    position: absolute;
+    top: 15px;
+    width: 20%;
+    left: 41%;
+    color: rgba(53, 53, 53, 0.07);
+    font-size: 52px;
+    font-weight: bold;
+
+}
+
+.contact .contactLable h2 {
+    width: 20%;
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #5f687b;
+    top: 40px;
+    left: 40%;
+    position: absolute;
+    margin: 10px;
+}
+
+.contact .contactLable p {
+    margin-top: 100px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+}
+
+.contact .form {
+    width: 55%;
+    background-color: #f9f9fa;
+    border-top: 3px solid #01b8dc;
+    border-bottom: 3px solid #01b8dc;
+    padding: 30px 20px 100px;
+}
+
+.contact .form table {
+    text-align: right;
+    width: 100%;
+    box-sizing: 5px;
+}
+
+.contact .form table tr {
+    padding: 20px;
+
+}
+
+.contact .form table tr td {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+
+}
+
+.contact .form table tr td input {
+    width: 100%;
+    height: 50px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #ced4da;
+}
+
+.contact .form table textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+
+}
+
+#button {
+    text-align: center;
+}
+.contact button:hover{
+    transform: scale(1.2,1.2);
+    background-color: blue;
+}
+
+.contact button {
+    font-size: 20px;
+    margin: 20px auto;
+    color: white;
+    background-color: #01b8dc;
+    padding: 10px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0;
+    transition: all 0.5s;
+}
+
+/* ================= */
+
+.contact .address {
+    width: 40%;
+    border-top: 3px solid #01b8dc;
+    border-bottom: 3px solid #01b8dc;
+    text-align: right;
+    background-color: #f9f9fa;
+}
+
+.contact .address .add,
+.mail,
+.tel {
+
+    padding: 10px;
+
+}
+
+.contact .address h4 {
+    margin: 15px 15px 5px 0;
+    font-size: 22px;
+    font-weight: 600;
+    
+    color: #5f687b;
+}
+
+.contact .address p {
+
+    margin: 0 15px 20px 0;
+    font-size: 14px;
+    color: #949cac;
+}
+
+.contact .address .map {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.contact .address iframe {
+    width: 100%;
+    border: 0;
+}
+
+
+
+
+/* ================footer================== */
+footer {
+    text-align: center;
+    background-color: #f3f4f6;
+    color: #5f687b;
+    font-size: 14px;
+    position: relative;
+    /* height: 300px; */
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 70px;
+}
+
+footer .container {
+    width: 85%;
+    margin: auto;
+}
+
+footer .container h3 {
+
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #5f687b;
+}
+
+footer .container .links {
+    margin: 40px 0 80px;
+}
+
+footer .container .links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #eaecef;
+    color: #5f687b;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 18px;
+    transition: 0.3s;
+}
+
+footer .container .links a:hover {
+    transform: scale(1.1, 1.1);
+    background-color: #03b0db;
+    color: white;
+}
+
+footer .ff {
+    display: flex;
+    padding: 40px 0;
+    justify-content: space-between;
+}
+
+footer .ff a {
+    text-decoration: none;
+    color: #14c871;
+}
+
+@media (max-width : 1400px) {
+
+    .container1 {
+        width: 90%;
+    }
+
+}
+
+@media (max-width : 1200px) {
+
+    .container1 .row1 .left1 {
+        margin-top: 50px;
+    }
+
+
+    .container1 .row1 .right1 {
+        padding: 110px 0 20px 0;
+        width: 50%;
+    }
+
+    section .item {
+        width: 28%;
+
+    }
+
+    .contact .form {
+        width: 50%;
+        padding: 30px 20px 100px;
+    }
+
+    .contact .address {
+        width: 44%;
+    }
+
+    .contact .address iframe {
+        width: 100%;
+        border: 0;
+        height: 300px;
+    }
+
+    .contact .contactLable span {
+        position: absolute;
+        top: 15px;
+        width: 30%;
+        left: 36%;
+        color: rgba(53, 53, 53, 0.07);
+        font-size: 52px;
+        font-weight: bold;
+
+    }
+
+    .contact .contactLable h2 {
+        width: 30%;
+        top: 42px;
+        left: 35%;
+
+        margin: 10px;
+    }
+}
+
+@media (max-width : 1000px) {
+
+    .nav .navc ul {
+        display: none;
+    }
+
+    .nav .navc .navButton {
+        display: block;
+    }
+
+    .container1 {
+        width: 70%;
+        margin: auto;
+        text-align: right;
+    }
+
+    .container1 .row1 {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0px;
+        flex-wrap: wrap;
+    }
+
+    .container1 .row1 .left1 {
+        width: 65%;
+
+    }
+
+    .container1 .row1 .left1 img {
+        width: 100%;
+    }
+
+    .container1 .row1 .right1 {
+        text-align: center;
+        padding: 0px 0 20px 0;
+        width: 80%;
+    }
+    .container1 .row1 .right1 h1{
+        text-align: center;
+        
+    }
+    .container1 .row1 .right1  p{
+        text-align: center;
+        
+    }
+
+    .container1 .row2 {
+        justify-content: space-between;
+        padding-top: 70px;
+        display: flex;
+        width: 100%;
+    }
+    
+    .container1 .row2 .left2 {
+    width: 45%;
+    }
+    .container1 .row2 .right2 {
+    width: 45%;  
+    }
+
+    .row3 {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        padding-top: 70px;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    
+    
+    .row3 .left3 {
+        text-align: right;
+        width: 100%;
+        
+    
+    
+    }
+    
+    .row3 .right3 {
+        width: 100%;
+
+    
+    }
+    section .item {
+        width: 40%;
+        
+    }
+    section {
+        
+        justify-content: space-around;
+        
+    
+    }
+    .contact {
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .contact .form {
+        width: 80%;
+        
+        margin-top: 50px;
+        padding: 30px 20px 100px;
+    }
+    
+    .contact .form table {
+        text-align: right;
+        width: 100%;
+    }
+
+    .contact .address {
+        width: 85%;
+        
+        
+    }
+    .contact .address iframe {
+        height: 500px;
+    }
+    footer .ff {
+        display: flex;
+        padding: 40px 0;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .fleft , .fright{
+        width: 100%;
+    }
+   
+
+    
+}
+
+@media (max-width : 800px) {
+
+    
+
+    .container1 {
+        width: 90%;
+        margin: auto;
+        text-align: right;
+    }
+
+    .container1 .row1 {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0px;
+        flex-wrap: wrap;
+    }
+
+    .container1 .row1 .left1 {
+        width: 55%;
+
+    }
+
+    .container1 .row2 {
+        justify-content: space-between;
+        padding-top: 70px;
+        display: flex;
+        width: 100%;
+    }
+    
+   
+    section .item {
+        width: 45%;
+        
+        
+    }
+    section {
+        padding: 20px 40px;
+        justify-content: space-between;
+        
+    }
+    .contact {
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .contact .form {
+        width: 80%;
+        
+        
+        padding: 30px 20px 100px;
+    }
+    
+    .contact .form table {
+        text-align: right;
+        width: 100%;
+    }
+
+    .contact .address {
+        width: 85%;
+        margin-top: 50px;
+        
+    }
+    .contact .address iframe {
+        height: 500px;
+    }
+ 
+   
+}
+
+@media (max-width : 770px) {
+
+    
+
+    .container1 {
+        width: 90%;
+        margin: auto;
+        text-align: right;
+    }
+
+    .container1 .row1 {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0px;
+        flex-wrap: wrap;
+    }
+
+    .container1 .row1 .left1 {
+        width: 55%;
+
+    }
+    .container1 .row1 .right1 h1 {
+        
+        font-size: 25px;
+       
+        
+    }
+    
+    .container1 .row1 .right1 p {
+        
+        font-size: 18px;
+    }
+
+    .container1 .row2 {
+        justify-content: space-between;
+        padding-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    
+    
+    .container1 .row2 .left2 {
+
+        
+        margin-top: 30px;
+        width: 90%;
+        
+    }
+    
+    .container1 .row2 .right2 {
+        width: 90%;
+    }
+    
+   
+    section .item {
+        width: 80%;
+        
+        
+    }
+    section {
+        padding: 20px 40px;
+        justify-content: space-around;
+        
+    }
+    .contact {
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+    
+    
+    .contact .contactLable span {
+        position: absolute;
+        top: 15px;
+        width: 100%;
+        left: 0;
+        color: rgba(53, 53, 53, 0.07);
+        font-size: 52px;
+        font-weight: bold;
+    
+    }
+    .contact .contactLable h2 {
+        width: 100%;
+        font-family: "Raleway", sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        color: #5f687b;
+        top: 45px;
+        left: 0%;
+        position: absolute;
+        margin: 10px;
+    }
+    .contact .form {
+        width: 100%;
+        
+        
+        padding: 30px 20px 100px;
+    }
+    
+    .contact .form table {
+        text-align: right;
+        width: 100%;
+    }
+
+    .contact .address {
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+    .contact .address iframe {
+        height: 400px;
+    }
+    
+   
+}
+@media (max-width : 570px) {
+
+    
+
+    .container1 {
+        width: 90%;
+        margin: auto;
+        text-align: right;
+    }
+
+    .container1 .row1 {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0px;
+        flex-wrap: wrap;
+    }
+
+    .container1 .row1 .left1 {
+        width: 75%;
+
+    }
+    .container1 .row1 .right1 h1 {
+        
+        font-size: 25px;
+       
+        
+    }
+    
+    .container1 .row1 .right1 p {
+        
+        font-size: 18px;
+    }
+
+    .container1 .row2 {
+        justify-content: space-between;
+        padding-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    
+    
+    .container1 .row2 .left2 {
+
+        
+        margin-top: 30px;
+        width: 90%;
+        
+    }
+    
+    .container1 .row2 .right2 {
+        width: 90%;
+    }
+    
+   
+    section .item {
+        width: 100%;
+        
+        
+    }
+    section {
+        padding: 20px 20px;
+        justify-content: space-around;
+        
+    }
+    section .sectionLable span {
+        position: absolute;
+        top: 15px;
+        width: 100%;
+        left: 2%;
+        color: rgba(53, 53, 53, 0.07);
+        font-size: 48px;
+        font-weight: bold;
+    
+    }
+    
+    section .sectionLable h2 {
+        width: 100%;
+        font-family: "Raleway", sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        color: #5f687b;
+        top: 40px;
+        left: 0%;
+        position: absolute;
+        margin: 10px;
+    
+    }
+    section .sectionfooter span {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        left: 2%;
+        color: rgba(53, 53, 53, 0.07);
+        font-size: 48px;
+        font-weight: bold;
+    }
+    
+    section .sectionfooter h2 {
+        width: 100%;
+        font-family: "Raleway", sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        color: #5f687b;
+        top: 20px;
+        left: 0%;
+        position: absolute;
+        margin: 10px;
+    
+    }
+
+
+    .contact {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .contact .contactLable span {
+        position: absolute;
+        top: 15px;
+        width: 100%;
+        left: 0;
+        color: rgba(53, 53, 53, 0.07);
+        font-size: 48px;
+        font-weight: bold;
+    
+    }
+    .contact .contactLable h2 {
+        width: 100%;
+        font-family: "Raleway", sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        color: #5f687b;
+        top: 45px;
+        left: 0%;
+        position: absolute;
+        margin: 10px;
+    }
+    .contact .form {
+        width: 100%;
+        
+        
+        padding: 30px 20px 100px;
+    }
+    
+    .contact .form table {
+        text-align: right;
+        width: 100%;
+    }
+
+    .contact .address {
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+    .contact .address h4 {
+        margin: 5px 15px 5px 0;
+        font-size: 22px;
+        font-weight: 600;
+        
+        color: #5f687b;
+    }
+    .contact .address iframe {
+        height: 300px;
+    }
+    .contact .form table tr td input {
+        
+        height: 30px;
+        font-size: 14px;
+    }
+    .contact .form table textarea {
+        width: 100%;
+        padding: 5px;
+        height: 80px;
+        font-size: 14px;
+    
+    }
+    footer {
+
+
+        padding-top: 40px;
+    }
+    
+    footer .container {
+        width: 85%;
+        margin: auto;
+    }
+    
+    footer .container h3 {
+    
+    
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: #5f687b;
+    }
+    
+    footer .container .links {
+        margin: 30px 0 ;
+    }
+    
+    footer .container .links a {
+        font-size: 18px;
+        display: inline-block;
+        line-height: 1;
+        padding: 8px 0;
+        margin: 4px;
+        border-radius: 4px;
+
+    }
+    
+    footer .container .links a:hover {
+        transform: scale(1.1, 1.1);
+        background-color: #03b0db;
+        color: white;
+    }
+    
+    footer .ff {
+        display: flex;
+        padding: 30px 0;
+        justify-content: space-between;
+    }
+    
+    footer .ff a {
+        text-decoration: none;
+        color: #14c871;
+    }
+   
+}
+@keyframes animate {
+    0% {
+        transform: translateY(0px);
+    }
+ 
+    100% {
+        transform: translateY(-20px);
+    }
+}
