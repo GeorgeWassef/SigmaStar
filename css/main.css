@@ -381,7 +381,7 @@ section .sectionLable span {
     top: 15px;
     width: 20%;
     left: 41%;
-    color: rgba(53, 53, 53, 0.07);
+    color: rgba(53, 53, 53, 0.04);
     font-size: 52px;
     font-weight: bold;
 
@@ -457,7 +457,7 @@ section .sectionfooter span {
     top: 0px;
     width: 100%;
     left: 0%;
-    color: rgba(53, 53, 53, 0.07);
+    color: rgba(53, 53, 53, 0.04);
     font-size: 52px;
     font-weight: bold;
 }
@@ -505,7 +505,7 @@ section .sectionfooter p {
     top: 15px;
     width: 20%;
     left: 41%;
-    color: rgba(53, 53, 53, 0.07);
+    color: rgba(53, 53, 53, 0.04);
     font-size: 52px;
     font-weight: bold;
 
@@ -1093,7 +1093,9 @@ footer .ff a {
    
 }
 @media (max-width : 570px) {
-
+    .nav .logo {
+        margin-right: 15px;
+    }
     
 
     .container1 {
